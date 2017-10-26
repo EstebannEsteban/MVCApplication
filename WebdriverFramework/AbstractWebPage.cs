@@ -24,5 +24,12 @@ namespace WebdriverFramework
             
 
         }
+
+        protected T NewPage<T>() where T : AbstractWebPage
+        {
+            return (T)Activator.CreateInstance(typeof(T), _driver);
+            //return (T)Activator.CreateInstance(typeof(T));
+
+        }
     }
 }

@@ -7,7 +7,7 @@ using OpenQA.Selenium;
 
 namespace WebdriverFramework
 {
-    public class BaseTest<T> where T: new()
+    public class BaseTest<T>
     {
         public T InitialPage;
         private IWebDriver _driver;
@@ -16,8 +16,8 @@ namespace WebdriverFramework
         public void SetUp()
         {
             _driver = Driver.StartBrowser();
-            //InitialPage = (T)Activator.CreateInstance(typeof(T), _driver);
-            InitialPage = new T();
+            InitialPage = (T)Activator.CreateInstance(typeof(T), _driver);
+            //InitialPage = new T();
             _driver.Navigate().GoToUrl("http://automationpractice.com");
             
         }

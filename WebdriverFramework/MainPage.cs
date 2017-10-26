@@ -7,6 +7,7 @@ using MVCApplication.Models.ViewModel;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 
+
 namespace WebdriverFramework
 {
     public class MainPage:AbstractWebPage
@@ -18,15 +19,21 @@ namespace WebdriverFramework
 
         }
 
-        public MainPage()
-        {
-                
-        }
+        [FindsBy(How = How.CssSelector, Using = ".login")]
+        protected IWebElement BtnSignIn = null;
 
         public void InsertUser(UserSignUpView usertSignUpView)
         {
             UserManager user = new UserManager();
             user.AddUserAccount(usertSignUpView);
+        }
+
+        
+
+        public SignIn clickSignInButton()
+        {
+            BtnSignIn.Click();
+            return NewPage<SignIn>();
         }
         
     }

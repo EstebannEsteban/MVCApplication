@@ -11,7 +11,15 @@ namespace WebdriverFramework
 {
     public class TestMainPage:BaseTest<MainPage>
     {
-        private IWebDriver _driver;
+
+        [Test]
+        public void CreateAccount()
+        {
+            var mainPage = InitialPage;
+            var signIn = mainPage.clickSignInButton();
+            signIn.ClickCreateAccountButton();
+
+        }
 
         [Test]
         public void LoadMainPage()
