@@ -1,0 +1,11 @@
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\obj\Debug\WebdriverFramework.csprojResolveAssemblyReference.cache
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\WebdriverFramework.dll
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\WebdriverFramework.pdb
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\nunit.framework.dll
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\WebDriver.dll
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\WebDriver.Support.dll
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\nunit.framework.xml
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\WebDriver.xml
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\bin\Debug\WebDriver.Support.xml
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\obj\Debug\WebdriverFramework.dll
+C:\Esteban_Utils\MyGitHub\MVCApplication\WebdriverFramework\obj\Debug\WebdriverFramework.pdb
